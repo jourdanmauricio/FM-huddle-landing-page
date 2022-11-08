@@ -110,6 +110,9 @@ body {
 }
 
 @media (min-width: 768px) {
+  .hero {
+    height: 100vh;
+  }
   .hero::before {
     height: 100%;
     background-image: url("../images/bg-desktop.svg");
